@@ -1,0 +1,161 @@
+
+*repositorio de python
+
+/home/mauricio1/python/pythonlinux
+
+*el python por defaul es 2.7  -> /usr/bin/python   (/usr/bin/python2.7)
+*tambien esta instalado el 3.4 en -> /usr/bin/python3.4
+
+		
+
+---------------------*github----------------------
+git pull    actualizar repositorio
+
+git checkout pythonlinuxdev  cambiar el brnach de dev
+echo hola2 > b.txt
+git add b.txt     agregar al index b.txt
+git commit -m "commit"     commit b.txtx
+git push -u origin pythonlinuxdev    ahora si subir a gitbuh
+git checkout master     cambiar al branch master osea a pythonlinux
+*para mas facil arrastar y soltar desde la pagina de github
+ --------------------------para el editor vsc--
+visual studio coder,  abrir el path /home/mauricio1/vsc/VSCode-linux-ia32  y dar click sobre Code
+
+se uso Komodo edit porque es grtais y el de arriba nunca finciono 
+--------------------------django---------------------
++es mas facil instalrlo en ubunto que en windows, lo instale sin ningun problema siguiendo los pasos
+de Lynda up and running with python and django
+
++El usuario para el proyecto de inventatio es mauricio y pass es master
+
++lo termine , ahora ver uno de ejemplos y best practices
+
+-----------------------------scraping  web scraping------------------
+"Web Scraping with Python", usa python 3
+-hay que instalar BeautifulSoup  en linux porque no es una libreaira stabdar
+-este api se funciona--AIzaSyC0_rHfJptYpZLk65-5SBEPXM5_fBTS0fk es mi key de mi primer api de tipo geocode de google 
+https://maps.googleapis.com/maps/api/geocode/json?address=1+Science+Park+Boston+MA+02114&key=AIzaSyC0_rHfJptYpZLk65-5SBEPXM5_fBTS0fk
+-sigue sigue ,100 pdf
+
+----------------------------------mysql---------------------
+mysql -u root -p
+use scraping;
+
+CREATE TABLE pages (
+id INT NOT NULL AUTO_INCREMENT,
+url VARCHAR(255) NOT NULL,
+created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id));
+
+CREATE TABLE links (
+id INT NOT NULL AUTO_INCREMENT,
+fromPageId INT NULL,
+toPageId INT NULL,
+created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id));
+----------------------------proxy----------------------
+hay que instalar el tor 
+sudo apt-get install tor
+correr demonio
+sudo /etc/init.d/tor start
+ver si corre
+ss -aln | grep 9050
+aqui elpuerto donde corre es el 9050, para probarlo ver
+
+makeProxy.py  alli se ver
+abre para ver tu ip actual
+http://icanhazip.com/
+
+ahora corre el script y vas a ver que sale otra ip
+
+*recuerda que el scrip usa PySocks , tons hay que instalarlo
+pip3 install Pysocks
+
+
+
+-----------------freelance-------------------
+Hello
+
+My name is Mauricio, I am a python developer with 2 years of experience in this language, moreover  I have  experience with other languages such as perl, shell , c++ ,html , cgi, sql.
+
+I have  been working  for 5 years on different operating system such as Linux (red hat, ubuntu), Unix Solaris, Unix Aix and Windows.
+
+Please see some of my scripts in github:
+
+https://github.com/gurbanoma
+
+
+I would like to be part of this project 
+
+Best regards,
+Mauricio
+--------------web scraping-------------------
+
+Hello
+
+My name is Mauricio, I am a python developer with 3 years of experience in this language, moreover  I have  experience with other languages such as perl, shell , c++ ,html , cgi, sql.
+
+I have  been working  for 5 years on different operating system such as Linux (red hat, ubuntu), Unix Solaris, Unix Aix and Windows.
+
+Please see some of my scripts for web scraping:
+
+https://github.com/gurbanoma/webscrap
+
+
+I would like to be part of this project 
+
+Best regards,
+Mauricio
+------------------perl ----------------------
+Hello
+
+My name is Mauricio, I am a perl developer with 3 years of experience in this language, moreover  I have  experience with other languages such as python, shell , c++ ,html , cgi, sql.
+
+I have  been working  for 5 years on different operating system such as Linux (red hat, ubuntu), Unix Solaris, Unix Aix and Windows.
+
+Please see some of my scripts in github:
+
+https://github.com/gurbanoma/pythonlinux
+
+
+I would like to be part of this project 
+
+Best regards,
+Mauricio
+
+
+
+---------------------------------------------
+
+how many years of experience do you have with the job posting either working or studing ?
+
+2 years working on writing python scripts,  6 months studying django framework.
+
+what other languages/frameworks did you work in the past and how many years of experience on them ?
+
+Perl 3 years
+Perl cgi  1 year
+shell 4 years
+html 1 year
+c++  3 years
+Sql  2 years
+
+how many clients did you work in the past ? How many clients do you have currently?
+
+I have worked with these clients in the past. Santander Bank, Walmart Stores inc. Bank of America
+Today , I work in TCS(Tata Consultancy Services) assigned to Morgan Stanley which is an investment bank ,I have work here for two years.
+
+How many hours will you work with us ?
+20 - 30 hours weekly.
+
+what is your usually working hours ?
+
+after 4:00 pm EST from monday to friday.
+
+
+
+
+
+
+
+
